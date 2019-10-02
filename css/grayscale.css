@@ -164,8 +164,8 @@
 }
 
 .about-section {
-  padding-top: 8rem;
-  background: linear-gradient(to bottom, #4666AD 0%, rgba(234, 94, 11, 0.9) 75%, rgba(255, 212, 0, 0.8) 100%);
+  padding-top: 4rem;
+  background: linear-gradient(to bottom, #FFD400 0%, rgba(234, 94, 11, 0.9) 35%, rgba(70, 102, 173, 0.8) 100%);
 }
 
 .about-section p {
@@ -282,7 +282,7 @@ a:focus, a:hover {
 }
 
 .bg-black {
-  background-color: #161616 !important;
+  background-color: #16161600 !important;
 }
 
 .bg-primary {

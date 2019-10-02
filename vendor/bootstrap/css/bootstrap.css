@@ -9896,6 +9896,8 @@ button.bg-dark:focus {
 }
 
 .text-white {
+    font-size: 20px;
+
   color: #000 !important;
 }
 
