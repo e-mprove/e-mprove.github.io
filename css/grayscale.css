@@ -62,7 +62,7 @@
     color: white;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #ffffff4D;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
@@ -73,15 +73,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #EA5E0B;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #4666AD;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #FFD400;
   }
 }
 
@@ -91,7 +91,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("");
+  background: linear-gradient(to bottom, rgba(255, 212, 0, 0) 0%, rgba(255, 212, 0, 0.2) 50%, #FFD40080 100%), url("");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -164,8 +164,8 @@
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  padding-top: 8rem;
+  background: linear-gradient(to bottom, #4666AD 0%, rgba(234, 94, 11, 0.9) 75%, rgba(255, 212, 0, 0.8) 100%);
 }
 
 .about-section p {
