@@ -146,7 +146,7 @@ color: white;
 background-color: #467370 !important;
 }
 .about-section {
-padding-top: 4rem;
+padding-top: 1.5rem;
 background: linear-gradient(to bottom, #FFD400 0%, rgba(234, 94, 11, 0.9) 0%, rgba(70, 102, 173, 0.8) 100%);
 }
 .about-section p {
@@ -215,8 +215,8 @@ width: 30%;
 }
 }
 .signup-section {
-padding: 10rem 0;
-background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+padding: 3rem 0;
+background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.png");
 background-position: center;
 background-repeat: no-repeat;
 background-attachment: scroll;
