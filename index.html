@@ -24,9 +24,9 @@
   color: #fff;
   background: linear-gradient(-90deg, #FFD400, #EA5E0B, #4666AD);
   background-size: 180% 180%;
-  -webkit-animation: Gradient 33s ease infinite;
-  -moz-animation: Gradient 33s ease infinite;
-  animation: Gradient 33s ease infinite;
+  -webkit-animation: Gradient 23s ease infinite;
+  -moz-animation: Gradient 23s ease infinite;
+  animation: Gradient 23s ease infinite;
   }
   @-webkit-keyframes Gradient {
   0% {
@@ -104,7 +104,7 @@
               <a class="nav-link js-scroll-trigger" href="#clientes">Clientes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#">Alojamiento Moodle</a>
+              <a class="nav-link js-scroll-trigger" href="#moodle">Alojamiento Moodle</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#signup">Contacto</a>
@@ -190,230 +190,342 @@
         <img src="img/noodle2.png" class="img-fluid" width="400px"><br><br><br><br><br><br>
       </div>
     </div>
-  
-</section>
-
-
-
-<!-- servicios -->
-<section id="servicios" class="servicios-section text-center">
-<div class="container">
-<div class="row">
-<div class="col-lg-6">
-<div class="bg-black text-center h-100 project">
-  <div class="d-flex h-100">
-    <div class="project-text w-100 my-auto text-center text-lg-left">
     
-  <nav class="menu">
-        <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
-        <label class="menu-open-button" for="menu-open">
-          <span class="lines line-1"></span>
-          <span class="lines line-2"></span>
-          <span class="lines line-3"></span>
-        </label>
-
-        <i class="menu-item blue"> <div class="popup" onclick="soporte()">Soporte
-          <span class="popuptext" id="soporte">En emprove somos expertos en e-learning, podemos apoyarlo en cualquier proyecto que desee desarrollar para educación o capacitación a distancia.</span>
-        </div></i>
-        <i class="menu-item green"> <div class="popup-instal" onclick="instal()">Instalación
-          <span class="popuptext" id="instalacion">Instalación bajo los parámetros apropiados recomendados por moodle asegurando una instalación sólida y confiable. Alojamiento web Tenemos VPS y alojamiento compartido, con
-          características especiales para moodle.</span>
-        </div></i>
-        <i class="menu-item red"> <div class="popup-consulta" onclick="consult()">Consultoría
-          <span class="popuptext" id="consulta">Evaluamos su sitio moodle, analizando el estado de su instalación, generando informes de corrección destinados a mejorar su sitio moodle.</span>
-        </div></i>
-        <i class="menu-item purple"> <div class="popup-perso" onclick="perso()">Personalización
-          <span class="popuptext" id="perso">Apoyamos personalizando su sitio moodle de acuerdo con las políticas o necesidades de su entidad.</span>
-        </div></i>
-        <i class="menu-item orange"> <div class="popup-contento" onclick="contento()">Contenidos
-          <span class="popuptext" id="contento">Desarrollamos cursos de acuerdo con las necesidades de su organización manejando altos estándares académicos que aseguran el logro de los objetivos de aprendizaje de su
-          comunidad.</span>
-        </div></i>
-        <i class="menu-item lightblue"> <div class="popup-integra" onclick="integra()">Integraciones
-          <span class="popuptext" id="integra">Proporcionamos sistemas que se integran con Moodle. Podemos hacer integraciones de Moodle con aplicaciones web que ayudan a alcanzar sus objetivos en línea y facilitan los procesos de aprendizaje.</span>
-        </div></i>
-
-      </nav>
-
-    <script>
-      // When the user clicks on div, open the popup
-      function soporte() {
-      var popup = document.getElementById("soporte");
-      popup.classList.toggle("show");
-      }
-      function instal() {
-      var popup = document.getElementById("instalacion");
-      popup.classList.toggle("show");
-      }
-      function consult() {
-      var popup = document.getElementById("consulta");
-      popup.classList.toggle("show");
-      }
-      function perso() {
-      var popup = document.getElementById("perso");
-      popup.classList.toggle("show");
-      }
-      function contento() {
-      var popup = document.getElementById("contento");
-      popup.classList.toggle("show");
-      }
-      function integra() {
-      var popup = document.getElementById("integra");
-      popup.classList.toggle("show");
-      }
-      </script>
-
-    </div>
-  </div>
-</div>
-</div>
-<div class="col-lg-5">
-<div class="bg-black text-center h-100 project">
-  <div class="d-flex h-100">
-    <div class="project-text w-100 my-auto text-center text-lg-left">
-        <nav class="menu2">
-        <input type="checkbox" href="#" class="menu2-open" name="menu2-open" id="menu2-open" />
-        <label class="menu2-open-button" for="menu2-open">
-          <span class="lines line-1"></span>
-          <span class="lines line-2"></span>
-          <span class="lines line-3"></span>
-        </label>
-        <i class="menu2-item blue"> <div class="popup" onclick="formacion()">Formación
-          <span class="popuptext" id="formacion">Le ayudamos a fortalecer las habilidades de aprendizaje de su personal.</span>
-        </div></i>
-        <i class="menu2-item green"> <div class="popup-apariencia" onclick="apariencia()">Apariencia
-          <span class="popuptext" id="apariencia">Generamos una apariencia gráfica alineada a su imagen institucional.</span>
-        </div></i>
-        <i class="menu2-item red"> <div class="popup-noodle" onclick="noodle()">Certificación Moodle
-          <span class="popuptext" id="noodle">Podemos apoyarlo con la capacitación oficial de Moodle que fortalece las habilidades digitales para aprender.</span>
-        </div></i>
-        <i class="menu2-item purple"> <div class="popup-analitica" onclick="analitica()">Analítica
-          <span class="popuptext" id="analitica">Apoyamos personalizando su sitio moodle de acuerdo con las políticas o necesidades de su entidad.</span>
-        </div></i>
-        <i class="menu2-item orange"> <div class="popup-contento" onclick="migraciones()">Migraciones
-          <span class="popuptext" id="migraciones">Desarrollamos cursos de acuerdo con las necesidades de su organización manejando altos estándares académicos que aseguran el logro de los objetivos de aprendizaje de su
-          comunidad.</span>
-        </div></i>
-        <i class="menu2-item lightblue"> <div class="popup-integra" onclick="integra()">Integraciones
-          <span class="popuptext" id="integra">Proporcionamos sistemas que se integran con Moodle. Podemos hacer integraciones de Moodle con aplicaciones web que ayudan a alcanzar sus objetivos en línea y facilitan los procesos de aprendizaje.</span>
-        </div></i>
-      </nav>
-
-    <script>
-      // When the user clicks on div, open the popup
-      function formacion() {
-      var popup = document.getElementById("formacion");
-      popup.classList.toggle("show");
-      }
-      function apariencia() {
-      var popup = document.getElementById("apariencia");
-      popup.classList.toggle("show");
-      }
-      function noodle() {
-      var popup = document.getElementById("noodle");
-      popup.classList.toggle("show");
-      }
-      function analitica() {
-      var popup = document.getElementById("analitica");
-      popup.classList.toggle("show");
-      }
-      function migraciones() {
-      var popup = document.getElementById("migraciones");
-      popup.classList.toggle("show");
-      }
-      function integra() {
-      var popup = document.getElementById("integra");
-      popup.classList.toggle("show");
-      }
-      </script>
-
-
-    </div>
-
-  </div>
-
-</div>
-
-</div>
-
-</section>
-<!-- Signup Section -->
-<section id="signup" class="signup-section">
-<div class="container">
-<div class="row">
-<div class="col-md-10 col-lg-8 mx-auto text-center">
-<i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-<h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-<form class="form-inline d-flex">
-<input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-<button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-</form>
-</div>
-</div>
-</div>
-</section>
-<!-- Contact Section -->
-<section class="contact-section bg-black">
-<div class="container">
-<div class="row">
-<div class="col-md-4 mb-3 mb-md-0">
-<div class="card py-4 h-100">
-<div class="card-body text-center">
-<i class="fas fa-map-marked-alt text-primary mb-2"></i>
-<h4 class="text-uppercase m-0">Address</h4>
-<hr class="my-4">
-<div class="small text-black-50">4923 Market Street, Orlando FL</div>
-</div>
-</div>
-</div>
-<div class="col-md-4 mb-3 mb-md-0">
-<div class="card py-4 h-100">
-<div class="card-body text-center">
-<i class="fas fa-envelope text-primary mb-2"></i>
-<h4 class="text-uppercase m-0">Email</h4>
-<hr class="my-4">
-<div class="small text-black-50">
-<a href="#">hello@yourdomain.com</a>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-4 mb-3 mb-md-0">
-<div class="card py-4 h-100">
-<div class="card-body text-center">
-<i class="fas fa-mobile-alt text-primary mb-2"></i>
-<h4 class="text-uppercase m-0">Phone</h4>
-<hr class="my-4">
-<div class="small text-black-50">+1 (555) 902-8832</div>
-</div>
-</div>
-</div>
-</div>
-<div class="social d-flex justify-content-center">
-<a href="#" class="mx-2">
-<i class="fab fa-twitter"></i>
-</a>
-<a href="#" class="mx-2">
-<i class="fab fa-facebook-f"></i>
-</a>
-<a href="#" class="mx-2">
-<i class="fab fa-github"></i>
-</a>
-</div>
-</div>
-</section>
-<!-- Footer -->
-<footer class="bg-black small text-center text-white-50">
-<div class="container">
-Copyright &copy; Your Website 2019
-</div>
-</footer>
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- Plugin JavaScript -->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-<!-- Custom scripts for this template -->
-<script src="js/grayscale.min.js"></script>
-</body>
+  </section>
+  <!-- servicios -->
+  <section id="servicios" class="servicios-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                
+                <nav class="menu">
+                  <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+                  <label class="menu-open-button" for="menu-open">
+                    <span class="lines line-1"></span>
+                    <span class="lines line-2"></span>
+                    <span class="lines line-3"></span>
+                  </label>
+                  <i class="menu-item blue"> <div class="popup" onclick="soporte()">Soporte
+                    <span class="popuptext" id="soporte">En emprove somos expertos en e-learning, podemos apoyarlo en cualquier proyecto que desee desarrollar para educación o capacitación a distancia.</span>
+                  </div></i>
+                  <i class="menu-item green"> <div class="popup-instal" onclick="instal()">Instalación
+                    <span class="popuptext" id="instalacion">Instalación bajo los parámetros apropiados recomendados por moodle asegurando una instalación sólida y confiable. Alojamiento web Tenemos VPS y alojamiento compartido, con
+                    características especiales para moodle.</span>
+                  </div></i>
+                  <i class="menu-item red"> <div class="popup-consulta" onclick="consult()">Consultoría
+                    <span class="popuptext" id="consulta">Evaluamos su sitio moodle, analizando el estado de su instalación, generando informes de corrección destinados a mejorar su sitio moodle.</span>
+                  </div></i>
+                  <i class="menu-item purple"> <div class="popup-perso" onclick="perso()">Personalización
+                    <span class="popuptext" id="perso">Apoyamos personalizando su sitio moodle de acuerdo con las políticas o necesidades de su entidad.</span>
+                  </div></i>
+                  <i class="menu-item orange"> <div class="popup-contento" onclick="contento()">Contenidos
+                    <span class="popuptext" id="contento">Desarrollamos cursos de acuerdo con las necesidades de su organización manejando altos estándares académicos que aseguran el logro de los objetivos de aprendizaje de su
+                    comunidad.</span>
+                  </div></i>
+                  <i class="menu-item lightblue"> <div class="popup-integra" onclick="integra()">Integraciones
+                    <span class="popuptext" id="integra">Proporcionamos sistemas que se integran con Moodle. Podemos hacer integraciones de Moodle con aplicaciones web que ayudan a alcanzar sus objetivos en línea y facilitan los procesos de aprendizaje.</span>
+                  </div></i>
+                </nav>
+                <script>
+                // When the user clicks on div, open the popup
+                function soporte() {
+                var popup = document.getElementById("soporte");
+                popup.classList.toggle("show");
+                }
+                function instal() {
+                var popup = document.getElementById("instalacion");
+                popup.classList.toggle("show");
+                }
+                function consult() {
+                var popup = document.getElementById("consulta");
+                popup.classList.toggle("show");
+                }
+                function perso() {
+                var popup = document.getElementById("perso");
+                popup.classList.toggle("show");
+                }
+                function contento() {
+                var popup = document.getElementById("contento");
+                popup.classList.toggle("show");
+                }
+                function integra() {
+                var popup = document.getElementById("integra");
+                popup.classList.toggle("show");
+                }
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <nav class="menu2">
+                  <input type="checkbox" href="#" class="menu2-open" name="menu2-open" id="menu2-open" />
+                  <label class="menu2-open-button" for="menu2-open">
+                    <span class="lines line-1"></span>
+                    <span class="lines line-2"></span>
+                    <span class="lines line-3"></span>
+                  </label>
+                  <i class="menu2-item blue"> <div class="popup" onclick="formacion()">Formación
+                    <span class="popuptext" id="formacion">Le ayudamos a fortalecer las habilidades de aprendizaje de su personal.</span>
+                  </div></i>
+                  <i class="menu2-item green"> <div class="popup-apariencia" onclick="apariencia()">Apariencia
+                    <span class="popuptext" id="apariencia">Generamos una apariencia gráfica alineada a su imagen institucional.</span>
+                  </div></i>
+                  <i class="menu2-item red"> <div class="popup-noodle" onclick="noodle()">Certificación Moodle
+                    <span class="popuptext" id="noodle">Podemos apoyarlo con la capacitación oficial de Moodle que fortalece las habilidades digitales para aprender.</span>
+                  </div></i>
+                  <i class="menu2-item purple"> <div class="popup-analitica" onclick="analitica()">Analítica
+                    <span class="popuptext" id="analitica">Apoyamos personalizando su sitio moodle de acuerdo con las políticas o necesidades de su entidad.</span>
+                  </div></i>
+                  <i class="menu2-item orange"> <div class="popup-migraciones" onclick="migraciones()">Migraciones
+                    <span class="popuptext" id="migraciones">
+                    Realizamos migraciones de tus contenidos entre los LMS mas utilizados.</span>
+                  </div></i>
+                  <i class="menu2-item lightblue"> <div class="popup-integra1" onclick="integra1()">Integraciones
+                    <span class="popuptext" id="integra1">Proporcionamos sistemas que se integran con Moodle. Podemos hacer integraciones de Moodle con aplicaciones web que ayudan a alcanzar sus objetivos en línea y facilitan los procesos de aprendizaje.</span>
+                  </div></i>
+                </nav>
+                <script>
+                // When the user clicks on div, open the popup
+                function formacion() {
+                var popup = document.getElementById("formacion");
+                popup.classList.toggle("show");
+                }
+                function apariencia() {
+                var popup = document.getElementById("apariencia");
+                popup.classList.toggle("show");
+                }
+                function noodle() {
+                var popup = document.getElementById("noodle");
+                popup.classList.toggle("show");
+                }
+                function analitica() {
+                var popup = document.getElementById("analitica");
+                popup.classList.toggle("show");
+                }
+                function migraciones() {
+                var popup = document.getElementById("migraciones");
+                popup.classList.toggle("show");
+                }
+                function integra1() {
+                var popup = document.getElementById("integra1");
+                popup.classList.toggle("show");
+                }
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Emprove University -->
+      <section id="university" class="university-section text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <!--<h2 class="text-white mb-4">Emprove University</h2>-->
+              <br>
+              <p class="text-whitee-50">Emprove cuenta con una área especializada en capacitación para educación
+                a distancia y tecnología educativa.
+                <br><br>
+                Este proyecto busca fortalecer las competencias digitales de los docentes y
+                administradores del LMS Moodle.
+                <br><br>
+                Contamos con cursos de:
+                <br><br><b>
+                <u>Diseño Instruccional</u>
+                <br>
+                <u>Moodle de 0 a 100</u>
+                <br>
+                <u>Creación de contenidos digitales</u>
+                <br>
+                <u>Beginner Moodle</u>
+                <br>
+                <u>H5P</u>
+                <br>
+                <u>LimeSurvey</u>
+                <br>
+                <u>Cómo hacer una actualización de tu LMS de forma segura</u></b>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <img src="img/image-02.png" class="img-fluid" width="130px"><br><br><br><br>
+      </div>
+    </section>
+    <!-- Clientes Section -->
+    <section id="clientes" class="clientes-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <br><br>
+            <p align="justify" class="mb-0 text-white-50"><img src="img/clientes_01.png" class="img-fluid-center-3"></p>
+          </div>
+          <div class="col-lg-6">
+            
+            <p align="justify" class="mb-0 text-white-50">
+              <br>
+            <img src="img/clientes_02.png" class="img-fluid-center-3"></p>
+          </div>
+          <div class="col-lg-6">
+            <p align="justify" class="mb-0 text-white-50">
+              <br><br>
+            <img src="img/clientes_04.png" class="img-fluid-center"  width="40%"></p>
+          </div>
+          <div class="col-lg-6">
+            <p align="justify" class="mb-0 text-white-50">
+              <br><br><br>
+            <img src="img/clientes_03.png" class="img-fluid-center"  width="36%"></p>
+          </div>
+          <div class="col-lg-6">
+            <br><br>
+            <p align="justify" class="mb-0 text-white-50"><img src="img/clientes_05.png" class="img-fluid-center" width="90%"></p>
+          </div>
+          <div class="col-lg-6">
+            <p align="justify" class="mb-0 text-white-50">
+              <br><br>
+            <img src="img/clientes_06.png" class="img-fluid-center-3"></p>
+          </div>
+          
+        </div>
+        <br><br><br>
+      </div>
+      
+    </section>
+    <!-- Alojamiento Moodle -->
+    <section id="moodle" class="moodle-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!--<h2 class="text-white mb-4">Emprove University</h2>-->
+            <br>
+            <p class="text-whitee-50">Como Partners de <b>Moodle</b> te ofrecemos servicios de alojamiento, no volveras a preocuparte por
+              una costosa infraestructura, te garantizamos el buen funcionamiento adaptado a los estándares que <b>Moodle</b> recomienda.
+              <br>
+              <img src="img/image-04-01.png" class="img-fluid" width="150px">
+              <br><b>
+              Básico 1 a 1000 estudiantes.</b>
+              <br>
+              Precio 500 USD por año (CPU de 3 núcleos, DDR4 RAM de 4GB, almacenamiento de 100GB, SSL gratis, SiteLock
+              gratis)
+              <br><br><b>
+              Collegue 1001 a 2500 estudiantes.</b>
+              <br>
+              Precio 900 USD por año (CPU de 4 núcleos, DDR4 RAM de 6GB, almacenamiento de 150GB, SSL gratis, SiteLock
+              gratis)
+              <br><br><b>
+              Bussines 2500 a 5000 estudiantes.</b>
+              <br>
+              Precio 1300 USD por año (CPU de 5core, 8GB RAM DDR4, 200GB de almacenamiento, SSL gratis, SiteLock
+              gratis)
+              <br><br><b>
+              Empresa 5001 a 10000 estudiantes.</b>
+              <br>
+              Precio 2000 USD por año (8core CPU, 16GB RAM DDR4, 500GB de almacenamiento, SSL gratis, SiteLock gratis)
+              <br><br><b>
+              Gobierno 10001 a 22000 estudiantes.</b>
+              <br>
+              Precio 2500 USD por año (16core CPU, 30GB RAM DDR4, 800GB de almacenamiento, SSL gratis, SiteLock gratis)
+            </p>
+          </div>
+        </div>
+        <br><br>
+      </div>
+    </section>
+    <!-- Signup Section -->
+    <section id="signup" class="signup-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto text-center">
+            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+            <p class="text-white-50">
+            <br>
+            ¿Contacta tu asesor de Emprove?
+            <br><br>
+            Gracias por visitar nuestra pagina web
+            <br><br>
+            Por favor escribe todos los detalles que sean posibles acerca de tus necesidades de e-lea
+            rning.
+            <br><br>
+            Es necesario que nos des tus datos de contacto para comunicarnos contigo lo antes
+            posible.
+                      <br><br>
+</p>
+            <form class="form-inline d-flex">
+              <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+              <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact-section bg-black">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Address</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Email</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">
+                  <a href="#">hello@yourdomain.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Phone</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">+1 (555) 902-8832</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="social d-flex justify-content-center">
+          <a href="#" class="mx-2">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="mx-2">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="mx-2">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+      <div class="container">
+        Copyright &copy; Your Website 2019
+      </div>
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+  </body>
 </html>

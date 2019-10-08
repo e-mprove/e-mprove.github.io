@@ -154,11 +154,36 @@ margin-bottom: 5rem;
 }
 
 .servicios-section {
-padding-top: 25%!important;
+padding-top: 22%!important;
 min-height: 100%!important;
-background: linear-gradient(to bottom, #FFD400 0%, rgba(234, 94, 11, 0.9) 50%, rgba(70, 102, 173, 0.8) 100%);
+background: linear-gradient(to bottom, #FFD40066 100%, rgba(234, 94, 11, 0.9) 50%, rgba(70, 102, 173, 0.8) 100%);
 }
 .servicios-section p {
+margin-bottom: 5rem;
+}
+
+.clientes-section {
+padding-top: 4rem;
+background: linear-gradient(to bottom, #D5DEF0BF 100%, rgba(234, 94, 11, 0.9) 50%, rgba(70, 102, 173, 0.8) 100%);}
+
+.clientes-section p {
+margin-bottom: 5rem;
+}
+
+
+.university-section {
+padding-top: 4rem;
+background: #4666AD66;
+}
+.university-section p {
+margin-bottom: 5rem;
+}
+
+.moodle-section {
+padding-top: 2rem;
+background: #EA5E0B66;
+}
+.moodle-section p {
 margin-bottom: 5rem;
 }
 
@@ -292,9 +317,9 @@ width: 150px;
 height: 150px;
 margin-left: -40px;
 position: absolute;
-color: #FFFFFF;
+color: #000;
 text-align: center;
-line-height: 110px;
+line-height: 143px;
 -webkit-transform: translate3d(0, 0, 0);
 transform: translate3d(0, 0, 0);
 -webkit-transition: -webkit-transform ease-out 200ms;
@@ -860,9 +885,9 @@ width: 150px;
 height: 150px;
 margin-left: -40px;
 position: absolute;
-color: #FFFFFF;
+color: #000;
 text-align: center;
-line-height: 110px;
+line-height: 143px;
 -webkit-transform: translate3d(0, 0, 0);
 transform: translate3d(0, 0, 0);
 -webkit-transition: -webkit-transform ease-out 200ms;
@@ -1255,7 +1280,7 @@ animation: fadeIn 1s;
 
 /*
 */
-.popup-contento {
+.popup-migraciones {
 line-height: normal;
 font-family: 'Nunito';
 font-size: 16px;
@@ -1282,7 +1307,7 @@ padding: 40px 20px;
 position: absolute;
 z-index: 1;
 bottom: -600%;
-left: -240%;
+left: -210%;
 margin-left: 0px;
 }
 /* Popup arrow */
@@ -1303,3 +1328,61 @@ visibility: visible;
 animation: fadeIn 1s;
 }
 /**/
+
+/*
+*/
+.popup-integra1 {
+line-height: normal;
+font-family: 'Nunito';
+font-size: 16px;
+position: relative;
+display: inline-block;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+/* The actual popup */
+.popup-integra1 .popuptext {
+line-height: normal;
+font-family: 'Nunito';
+font-size: 14px;
+visibility: hidden;
+width: 200px;
+background-color: #62C2E4;
+color: #FFF;
+text-align: center;
+border-radius: 6px;
+padding: 40px 20px;
+position: absolute;
+z-index: 1;
+bottom: 120%;
+left: -140%;
+margin-left: 0px;
+}
+/* Popup arrow */
+.popup-integra1 .popuptext::after {
+content: "";
+position: absolute;
+top: 100%;
+left: -50%;
+margin-left: -5px;
+border-width: 5px;
+border-style: solid;
+border-color: #FFD40000 transparent transparent transparent;
+}
+/* Toggle this class - hide and show the popup */
+.popup-integra1 .show {
+visibility: visible;
+-webkit-animation: fadeIn 1s;
+animation: fadeIn 1s;
+}
+/**/
+
+
+.text-whitee-50 {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1) !important;
+}
+
